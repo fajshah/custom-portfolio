@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website - Faj</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/7e670b6546.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container" >
+      <nav>
+        <img src="images/LOGO.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#contact">Contact</a></li>
+           <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+       </ul>
+       <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <br><span>S.Farzana Shah</span> <br> From Pakistan </h1>
+
+      </div>
+
+    </div>
+   <!-------about---------> 
+  </div>
+  <div id="about">
+   <div class="container">
+    <div class="row">
+      <div class="about-cal-1">
+        <img src="images/pic2.avif">        
+        
+      </div>
+      <div class="about-cal-2">
+        <h1 class="sub-title">About Me</h1>
+        <p> I have a master's degree in English and Teaching from Metropolitan School, and I am currently studying at GIAIC, pursuing a course in Artificial Intelligence, Web 3.0, and the Metaverse. I am passionate about technology and constantly learning new skills to stay up-to-date with the latest innovations.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI?UX</span><br>Designing Web/App interface</li>
+            <li><span>Web Designing</span><br>HTML, CSS, Typescript</li>
+            <li><span>App Development</span><br>Javascript, Node.Next, Teaching</li>
+          </ul>
+
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2024 - current</span><br>Online Household Accesories Selling</li>
+            <li><span>2019-2022</span><br>Administration at Metropolitan School</li>
+            <li><span>2012-2018</span><br>Teaching in Happy Palace School</li>
+          </ul>
+
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2024 - current</span><br>UI/UX ,AI, Training at governour initiative Programme</li>
+            <li><span>MASTERS</span><br>In English</li>
+            <li><span>GRATUATION</span><br>B.A In Economics </li>
+            <li><span>INTERMEDIATE</span><br>FSC In Biology </li>
+            <li><span>METRICULATION</span><br>Science </li>
+          </ul>
+
+        </div>
+     
+    </div>
+   </div>
+  </div>
+<!--------Services-------> 
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugiat eos illum magnam officia eius vero saepe est et at!</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugiat eos illum magnam officia eius vero saepe est et at!</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>App Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fugiat eos illum magnam officia eius vero saepe est et at!</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div> 
+  </div>
+</div>
+<!----------------portfolio------------->
+<div id="portfolio">
+<div class="container">
+  <h class="sub-title"> My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/faj-resume.png">
+        <div class="layer">
+          <h3>Resume-Builder</h3>
+          <p>The Resume-Builder made with the help of HTML,CSS</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/helloworld.png">
+        <div class="layer">
+        <h3>My 1st Web Page</h3>
+          <p>This web page made with the help of Simple CSS & HTML</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+      <div class="work">
+        <img src="images/my-form.png">
+        <div class="layer">
+        <h3>My Foarm</h3>
+          <p>My Foarm made with the help of HTML</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+      <div class="work">
+        <img src="images/pages.png">
+        <div class="layer">
+        <h3>web pages</h3>
+          <p>This is the pages made with the help of nodenext & using simple CSS</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+      <div class="work">
+        <img src="images/shreable.png">
+        <div class="layer">
+        <h3>Shareable-Resume</h3>
+          <p>The Shareable_resume made with HTML , CSS</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div> 
+    </div>
+
+<a href="#" class="btn">See more</a>
+</div>
+</div>
+<!----------------contact------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>Contact@example.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>03313051489</p>
+        <div class="social-icons">
+        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter-square.com/"><i class="fa-brands fa-twitter-square"></i></a>
+        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="images/faj-resume.png " download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form >
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ S.Farzana. Made with <i class="fa-solid fa-heart"></i> by faj</p>
+  </div>
+</div>
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>
